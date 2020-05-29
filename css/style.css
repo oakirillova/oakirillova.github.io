@@ -1,0 +1,187 @@
+@font-face{
+    font-family: 'Olga';
+    src: url('OLD_USA.otf');
+}
+@font-face{
+    font-family: 'Vika';
+    src: url('viks.otf');
+}
+body{
+    margin: 0px;
+    background-color: darkgreen;
+}
+
+h1{
+    width: 855px;
+    height: 100px;
+    color: #FF6145;
+    text-align: center;
+    font-family: 'Olga';
+    margin: auto;
+    padding: 10px;
+    border: 3px double #FF6145;
+    font-size: 45px;
+    background-color: #A5F37B;
+    transition: 0.5s;
+}
+
+h1:hover{
+   background-color: #47C143; 
+}
+
+.menu{
+    background-color: #D5D987;
+    width: 860px;
+    height: 35px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color:#FF6145;
+    font-family: 'Calibri';
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+    margin: 0px 25px;
+    transition: 0.5s;
+    width: 120px;
+    display: inline-block;
+}
+
+a:visited{
+    color:#47C143;
+}
+
+a:hover{
+    background-color: #EBFFB1;
+}
+
+/*-------------ДАНО/БУФЕР----------------------------*/
+
+.colum {
+    width: 266px;
+    height: 460px;
+    margin: 19px;
+    font-size: 0px; /*2я задача*/
+    display: inline-block;
+    vertical-align: top; /*4я задача*/
+}
+
+.colum img{
+    width: 266px;
+    height: 250px;
+}
+
+h2{
+    color:#FF6145;
+    font-family: 'Calibri';
+    font-size: 25px; 
+    text-align: center;
+    background-color: #EBFFB1;
+    margin: 0px;/*2я задача*/
+    padding: 5px;
+}
+
+.colum p{
+    color:#47C143;
+    font-family: 'Calibri';
+    font-size: 20px; 
+    background-color: #EBFFB1;
+    margin: 0px;/*2я задача*/
+    padding: 10px;
+}
+/*----------------------------1я задача------------------*/
+.we{
+    text-align: center;
+}
+/*------------------------4я задача------------------*/
+
+img{
+    width: 860px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+/*------------------------3я задача------------------*/
+.event{
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    font-size: 0px;
+    display: inline-block;/*5я задача*/
+    vertical-align: top;
+}
+
+.event img{
+    width: 400px;
+    height: 300px;
+    display: inline-block; /*5я задача*/
+    vertical-align: top;
+}
+
+.date{
+    width: 400px;
+    height: 200px;
+    background-color: #EBFFB1;
+    display: inline-block; /*5я задача*/
+    vertical-align: top;
+}
+
+.day{
+    display: inline-block;
+    width: 150px;
+    color:#FF6145;
+    font-family: 'Calibri';
+    font-size: 55px; 
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.new{
+    display: inline-block;
+    width: 210px;
+    color:#FF6145;
+    font-family: 'Calibri';
+    font-size: 30px; 
+    text-align: center;
+    padding: 25px 10px;
+    font-weight: 700;
+}
+
+/*------------------5я задача-------------------*/
+
+.seminars {
+    text-align: center;
+    margin: auto; 
+}
+
+/*---------------6я задача---------------------*/
+
+footer {
+    background-color: #D5D987;
+    width: 860px;
+    margin: auto;
+    padding: 10px;
+    color:#47C143;
+    font-family: 'Calibri';
+    font-size: 20px;
+    text-align: center;
+}
+
+.phone{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 50px;
+}
+
+/*---------------7я задача---------------------*/
